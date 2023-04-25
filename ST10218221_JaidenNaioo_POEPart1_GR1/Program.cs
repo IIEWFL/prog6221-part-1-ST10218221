@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProgrammingPOEPart1
+namespace ST10218221_JaidenNaioo_POEPart1_GR1
 {
 
     internal class Program
