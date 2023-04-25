@@ -45,6 +45,21 @@ namespace ST10218221_JaidenNaioo_POEPart1_GR1
             ingredientUnits = new string[numIngredients];
             OriginalitQuantities = new double[numIngredients];
 
+            // Get user input for each ingredient
+            for (int i = 0; i < numIngredients; i++)
+            {
+                Console.WriteLine($"Please enter details for ingredient number " + numIngredients);
+                Console.Write("Name: ");
+                ingredientNames[i] = Console.ReadLine();
+
+                Console.Write("Quantity: ");
+                ingredientQuantities[i] = double.Parse(Console.ReadLine());
+                OriginalitQuantities[i] = ingredientQuantities[i]; //saves origanal when user decides to scale
+
+                Console.Write("Unit of measurement: ");
+                ingredientUnits[i] = Console.ReadLine();
+            }
+
 
 
         }
