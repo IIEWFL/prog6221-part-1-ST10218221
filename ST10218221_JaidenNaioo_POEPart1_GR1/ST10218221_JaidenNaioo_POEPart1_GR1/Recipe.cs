@@ -103,5 +103,35 @@ namespace ST10218221_JaidenNaioo_POEPart1_GR1
 
         }
 
+        // a method used to scale a recipe, by either a factor of 0.5, 2 or 3
+        public void ScaleRecipe()
+        {
+            Console.WriteLine("Please enter a scaling factor: \n 1. 0,5 \n 2. 2 \n 3. 3");
+
+            int options = int.Parse(Console.ReadLine());
+
+            switch (options)
+            {
+                case 1:
+                    for (int i = 0; i < ingredientQuantities.Length; i++)
+                    {
+                        ingredientQuantities[i] *= 0.5;
+                        Console.WriteLine("The recipe you have enter has now been scaled to 0,5. \nPress ENTER to continue");
+                    }
+                    break;
+                case 2:
+                   
+                    break;
+                case 3:
+                   
+                    break;
+                default:
+                    Console.WriteLine("Sorry option not available");
+                    break;
+
+            }
+
+        }
+
     }
 }
