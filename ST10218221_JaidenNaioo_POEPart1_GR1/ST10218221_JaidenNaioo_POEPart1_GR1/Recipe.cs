@@ -127,7 +127,11 @@ namespace ST10218221_JaidenNaioo_POEPart1_GR1
                     }
                     break;
                 case 3:
-                   
+                    for (int i = 0; i < ingredientQuantities.Length; i++)
+                    {
+                        ingredientQuantities[i] *= 3;
+                        Console.WriteLine("The recipe you have enter has now been scaled to 3. \nPress ENTER to continue");
+                    }
                     break;
                 default:
                     Console.WriteLine("Sorry option not available");
