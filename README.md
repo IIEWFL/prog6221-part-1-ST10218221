@@ -13,7 +13,7 @@
  
 6. If you have chosen to scale your recipe, you can choose to reset it to the original recipe and then after that you could choose to delete the recipe or close the system. 
 
-**DISCLAIMAR**
+****DISCLAIMAR****
 As the user, you are required to press ENTER once you have completed an option such as: entering a recipe, displaying a recipe, scale a recipe, delete a recipe and clear a recipe.
 
 https://github.com/IIEWFL/prog6221-part-1-ST10218221.git
