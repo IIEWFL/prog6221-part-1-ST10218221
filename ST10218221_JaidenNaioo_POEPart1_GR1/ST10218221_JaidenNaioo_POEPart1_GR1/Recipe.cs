@@ -120,7 +120,11 @@ namespace ST10218221_JaidenNaioo_POEPart1_GR1
                     }
                     break;
                 case 2:
-                   
+                    for (int i = 0; i < ingredientQuantities.Length; i++)
+                    {
+                        ingredientQuantities[i] *= 2;
+                        Console.WriteLine("The recipe you have enter has now been scaled to 2. \nPress ENTER to continue");
+                    }
                     break;
                 case 3:
                    
