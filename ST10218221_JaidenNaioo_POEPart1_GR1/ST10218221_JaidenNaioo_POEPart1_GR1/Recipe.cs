@@ -60,7 +60,19 @@ namespace ST10218221_JaidenNaioo_POEPart1_GR1
                 ingredientUnits[i] = Console.ReadLine();
             }
 
+            Console.Write("Please enter the number of steps required for the recipe: ");
+            int numSteps = int.Parse(Console.ReadLine());
 
+            // Initialize steps array with user-specified length
+            steps = new string[numSteps];
+
+            // Get user input for each step and repeats as per number of steps
+            for (int i = 0; i < numSteps; i++)
+            {
+                Console.Write($"Please the " +
+                    $"enter step {i + 1}: ");
+                steps[i] = Console.ReadLine();
+            }
 
         }
 
