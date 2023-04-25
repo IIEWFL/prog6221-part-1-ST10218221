@@ -85,8 +85,18 @@ namespace ST10218221_JaidenNaioo_POEPart1_GR1
             }
             else
             {
+                Console.WriteLine("Ingredients:");
+                for (int i = 0; i < ingredientNames.Length; i++)
+                {
+                    Console.WriteLine($"{ingredientQuantities[i]} {ingredientUnits[i]} of {ingredientNames[i]}");
+                }
 
-               
+                Console.WriteLine("\nSteps:");
+                for (int i = 0; i < steps.Length; i++)
+                {
+                    Console.WriteLine($"{i + 1}. {steps[i]} \nPress ENTER to continue");
+                }
+
             }
 
 
