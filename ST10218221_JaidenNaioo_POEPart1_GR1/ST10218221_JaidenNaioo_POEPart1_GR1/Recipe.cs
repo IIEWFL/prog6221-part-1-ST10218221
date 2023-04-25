@@ -35,7 +35,17 @@ namespace ST10218221_JaidenNaioo_POEPart1_GR1
             steps = new string[0];
             OriginalitQuantities = new double[0];
 
-           
+            //Allowing for user input
+            Console.Write("Please enter number of ingredients to be used in the recipe: ");
+            int numIngredients = int.Parse(Console.ReadLine());
+
+            // Initialize arrays with user-specified length
+            ingredientNames = new string[numIngredients];
+            ingredientQuantities = new double[numIngredients];
+            ingredientUnits = new string[numIngredients];
+            OriginalitQuantities = new double[numIngredients];
+
+
 
         }
 
