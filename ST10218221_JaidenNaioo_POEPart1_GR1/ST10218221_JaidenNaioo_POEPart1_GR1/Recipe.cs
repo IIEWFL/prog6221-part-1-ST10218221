@@ -154,5 +154,19 @@ namespace ST10218221_JaidenNaioo_POEPart1_GR1
 
         }
 
+        //a method used to clear data of a recipe 
+        public void Clear()
+        {
+
+            Array.Clear(ingredientNames, 0, ingredientNames.Length);
+            Array.Clear(ingredientQuantities, 0, ingredientQuantities.Length);
+            Array.Clear(ingredientUnits, 0, ingredientUnits.Length);
+            Array.Clear(steps, 0, steps.Length);
+            Array.Clear(OriginalitQuantities, 0, OriginalitQuantities.Length);
+
+            Console.WriteLine("The recipe you have enter has now been cleared. \nPress Enter to continue");
+
+        }
+
     }
 }
