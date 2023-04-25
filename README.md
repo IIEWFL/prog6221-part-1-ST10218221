@@ -1,6 +1,6 @@
-ST10218221_JaidenNaidoo_PROG6221_Part1_GR1
+# ST10218221_JaidenNaidoo_PROG6221_Part1_GR1
 
-How to use my PROG6221 POE Part 1: 
+## How to use my PROG6221 POE Part 1: 
 1. Once you run the file, a menu will come up providing you with options. 
 
 2. Since this is your first time using the system, it will not permit the oher options to function other than the option to enter a recipe. 
