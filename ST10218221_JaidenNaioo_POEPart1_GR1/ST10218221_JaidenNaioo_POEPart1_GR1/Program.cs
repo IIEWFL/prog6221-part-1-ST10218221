@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProgrammingPOEPart1
+namespace ST10218221_JaidenNaioo_POEPart1_GR1
 {
 
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.ForegroundColor = ConsoleColor.Magenta;
-            Recipe recipe = new Recipe();
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Recipe recipe = new Recipe();  
 
             while (true)
             {
