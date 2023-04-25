@@ -76,5 +76,22 @@ namespace ST10218221_JaidenNaioo_POEPart1_GR1
 
         }
 
+        //a method used to display inputs of user
+        public void DisplayRecipe()
+        {
+            if (ingredientNames.Length == 0)
+            {
+                Console.WriteLine("Please input a valid recipe \nPress ENTER to continue");
+            }
+            else
+            {
+
+               
+            }
+
+
+
+        }
+
     }
 }
