@@ -141,5 +141,18 @@ namespace ST10218221_JaidenNaioo_POEPart1_GR1
 
         }
 
+        //a method used to revert the quantitties used in a recipe to its original quantity 
+        public void ResetQuantity()
+        {
+
+            for (int i = 0; i < ingredientQuantities.Length; i++)
+            {
+                ingredientQuantities[i] = OriginalitQuantities[i];
+
+                Console.WriteLine("The recipe you have enter has now been reset to original quantity. \nPress ENTER to continue");
+            }
+
+        }
+
     }
 }
